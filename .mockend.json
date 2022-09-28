@@ -13,7 +13,9 @@
       ]
     },
     "isActive": {
-      "boolean": [true]
+      "string": [
+        "true"
+      ]
     },
     "descr": {
         "loremSentences": {
