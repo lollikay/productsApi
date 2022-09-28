@@ -1,11 +1,5 @@
 {
   "Product": {
-    "id": {
-      "int": {
-        "min": 1001,
-        "max": 2000
-      }
-    },
     "article": {
       "regexp": "art[0-9]{4,6}"
     },
@@ -19,12 +13,12 @@
       ]
     },
     "isActive": {
-      "boolean": {}
+      "boolean": [true]
     },
     "descr": {
         "loremSentences": {
-          "minLength": 2,
-          "maxLength": 10
+          "minLength": 100,
+          "maxLength": 300
         }
     },
     "isSale": {
@@ -42,13 +36,13 @@
     "max": {
       "int": {
         "min": 11,
-        "max": 200
+        "max": 50
       }
     },
     "remarks": {
       "loremSentences": {
-        "minLength": 0,
-        "maxLength": 5
+        "minLength": 50,
+        "maxLength": 300
       }
     },
     "imagePath": {
