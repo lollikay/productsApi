@@ -1,0 +1,45 @@
+{
+  "Product": {
+    "id": { "int": { "min": 1001, "max": 2000 } },
+    "article": { "regexp": "art[0-9]{4,6}" },
+    "title": {"string": [
+      "Hexagon Moonstone and Diamond Wedding Ring Set",
+      "White Gold Kite Black Onyx Necklace",
+      "Three-Stone Teal Sapphire and Pear Diamond Ring",
+      "Rainbow Moonstone Mini Gemstone Bracelet",
+      "Copper Square Hoop Earrings",
+      {
+        "loremWords": {
+          "minLength": 3,
+          "maxLength": 10
+        }
+      }
+    ]},
+    "isActive": true,
+    "descr": {
+      "string": {
+        "loremSentences": {
+          "minLength": 2,
+          "maxLength": 10
+        }
+      }
+    },
+    "isSale": { "boolean": {} },
+    "inStock": { "boolean": {} },
+    "min": { "int": { "min": 1, "max": 10 } },
+    "max": { "int": { "min": 11, "max": 200 } },
+    "remarks": {
+      "loremSentences": { "minLength": 0, "maxLength": 5 }
+    },
+    "imagePath": {
+      "string": [
+        "/images/products/ring-1.jpg",
+        "/images/products/earrings-1.jpeg",
+        "/images/products/bracelet-3.jpeg",
+        "/images/products/ring-2.jpeg",
+        "/images/products/necklace-1.jpeg",
+        "/images/products/ring-1.jpg"
+      ]
+    }
+  }
+}
