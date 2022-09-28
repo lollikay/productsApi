@@ -15,13 +15,7 @@
         "White Gold Kite Black Onyx Necklace",
         "Three-Stone Teal Sapphire and Pear Diamond Ring",
         "Rainbow Moonstone Mini Gemstone Bracelet",
-        "Copper Square Hoop Earrings",
-        {
-          "loremWords": {
-            "minLength": 3,
-            "maxLength": 10
-          }
-        }
+        "Copper Square Hoop Earrings"
       ]
     },
     "isActive": {
