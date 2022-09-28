@@ -25,7 +25,7 @@
       ]
     },
     "isActive": {
-      "boolean": true
+      "boolean": {}
     },
     "descr": {
         "loremSentences": {
