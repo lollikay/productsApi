@@ -24,7 +24,9 @@
         }
       ]
     },
-    "isActive": true,
+    "isActive": {
+      "boolean": true
+    },
     "descr": {
         "loremSentences": {
           "minLength": 2,
